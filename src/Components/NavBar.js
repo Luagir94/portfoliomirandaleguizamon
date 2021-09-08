@@ -14,14 +14,14 @@ export default function NavBar() {
             <Navbar.Collapse id="responsive-navbar-nav">
                 <Link to={`/home`} >Home</Link>
                 <Link to={`/bio`} >Bio</Link>
-                <NavDropdown title="Dropdown" id="collasible-nav-dropdown">
+                <NavDropdown title="Analogicas" id="collasible-nav-dropdown">
                 <Link to={``} >Retratos</Link>
                 <Link to={``} >Naturaleza</Link>
                 <Link to={``} >Doble Exposicion</Link>
                 <Link to={``} >Arquitectura</Link>
                 <Link to={``} >Callejera</Link>
                 </NavDropdown>
-                <NavDropdown title="Dropdown" id="collasible-nav-dropdown">
+                <NavDropdown title="Digitales" id="collasible-nav-dropdown">
                 <Link to={``} >Retratos</Link>
                 <Link to={``} >Naturaleza</Link>
                 <Link to={``} >Doble Exposicion</Link>

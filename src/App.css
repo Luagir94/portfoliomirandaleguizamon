@@ -14,7 +14,6 @@ header h2 {
   width: 100vw;
   display: flex;
   justify-content: space-evenly;
-  background-color: #E0BAD7;
 }
 
 #navBar #responsive-navbar-nav {
@@ -22,15 +21,45 @@ header h2 {
 }
 
 #navBar #responsive-navbar-nav a {
-  padding: 1rem;
+  padding: 2rem;
   text-decoration: none;
-  font-size: 1.5rem;
+  font-size: 1.3rem;
+  color: #439775;
+  border-top: solid 2px #E0BAD7;
+  border-bottom: solid 2px #E0BAD7;
+  margin: 1rem;
+}
+
+#navBar #responsive-navbar-nav a:hover {
   color: #000F08;
+  border-top: solid 4px #E0BAD7;
+  border-bottom: solid 4px #E0BAD7;
 }
 
 #navBar #responsive-navbar-nav div.show {
   display: flex;
   flex-direction: column;
+  justify-content: center;
+}
+
+#navBar #responsive-navbar-nav div.show div {
+  margin-top: -0.8rem;
+  display: flex;
+  justify-content: center;
+}
+
+#navBar #responsive-navbar-nav div.show div a {
+  border-top: none;
+  border-bottom: none;
+  margin: 0;
+  padding: 0.5rem;
+}
+
+#navBar #responsive-navbar-nav div.show div a:hover {
+  background-color: #000F08;
+  color: #E0BAD7;
+  border-top: none;
+  border-bottom: none;
 }
 
 * {
