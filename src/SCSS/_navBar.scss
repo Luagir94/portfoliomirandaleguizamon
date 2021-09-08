@@ -1,0 +1,24 @@
+#navBar{
+    width: 100vw;
+    display: flex;
+justify-content: space-evenly;
+    background-color: $color5;
+    #responsive-navbar-nav{
+        justify-content: center;
+        a{
+            padding: 1rem;
+            text-decoration: none;
+            font-size: 1.5rem;
+            color: $color1;
+        }
+        div.show{
+            display: flex;
+            flex-direction: column;
+        }
+
+    }
+    
+    }
+
+
+    

@@ -1,0 +1,16 @@
+//Vars
+$color1 : #000F08;
+$color2 : #439775;
+$color3 : #48BF84;
+$color4 : #61D095;
+$color5 : #E0BAD7;
+
+//Imports
+@import "header";
+@import "navBar";
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Baskervville', serif;
+}
