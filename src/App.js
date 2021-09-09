@@ -28,14 +28,14 @@ function App() {
     <Header/>
     <Router>
         <Navbar/>
-        <div>
+        <main>
         <Switch>
           <Route  exact path="/index" component={Home}/>
           <Route  exact path="/bio" component={Bio}/>
           <Route  exact path="/contact" component={Contact}/>
           <Route  path="*" component={Error404}/>
         </Switch>
-        </div>
+        </main>
       </Router>
 
     </>

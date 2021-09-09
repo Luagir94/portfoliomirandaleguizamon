@@ -1,0 +1,23 @@
+#bio{margin: 5rem;
+    padding: 2rem;
+    width: 90%;
+    #bioFig{
+        display: flex;
+        justify-content: space-evenly;
+        img{
+            border-radius: 5px;
+            width: 35rem;
+        }
+        figcaption{
+            width: 50%;
+            h3{ font-size: 2rem;
+                padding: 2rem;
+            }
+                p{
+                    font-size: 1rem;
+                    padding: 2rem;
+                    text-align: justify;
+                }
+        }
+    }
+}

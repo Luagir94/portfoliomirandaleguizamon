@@ -2,7 +2,7 @@
     width: 100vw;
     display: flex;
     justify-content: space-evenly;
-
+    margin-top: 3rem;
     #responsive-navbar-nav {
         justify-content: center;
         a {
@@ -13,11 +13,13 @@
             border-top: solid 2px $color5;
             border-bottom: solid 2px $color5;
             margin: 1rem;
+            
         }
         a:hover {
-            color: $color1;
-            border-top: solid 4px $color5;
-            border-bottom: solid 4px $color5;
+            color: $color3;
+            border-top: solid 2px $color4;
+            border-bottom: solid 2px $color4;
+            text-shadow: 1px 2px 3px $color4;
         }
         div.show {
             display: flex;
@@ -32,12 +34,12 @@
                     border-bottom: none;
                     margin: 0;
                     padding: 0.5rem;
+                    
                 }
                 a:hover {
-                    background-color: $color1;
+                    background-color: $color3;
                     color: $color5;
-                    border-top: none;
-                    border-bottom: none;
+                    text-shadow: none;
                 }
             }
         }

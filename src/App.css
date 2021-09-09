@@ -3,17 +3,20 @@ header h1 {
   font-size: 4rem;
   text-align: center;
   color: #439775;
+  text-shadow: 1px 1px 2px #B964A6;
 }
 
 header h2 {
   text-align: center;
   color: #439775;
+  text-shadow: 1px 1px 2px #B964A6;
 }
 
 #navBar {
   width: 100vw;
   display: flex;
   justify-content: space-evenly;
+  margin-top: 3rem;
 }
 
 #navBar #responsive-navbar-nav {
@@ -31,9 +34,10 @@ header h2 {
 }
 
 #navBar #responsive-navbar-nav a:hover {
-  color: #000F08;
-  border-top: solid 4px #E0BAD7;
-  border-bottom: solid 4px #E0BAD7;
+  color: #48BF84;
+  border-top: solid 2px #B964A6;
+  border-bottom: solid 2px #B964A6;
+  text-shadow: 1px 2px 3px #B964A6;
 }
 
 #navBar #responsive-navbar-nav div.show {
@@ -56,14 +60,54 @@ header h2 {
 }
 
 #navBar #responsive-navbar-nav div.show div a:hover {
-  background-color: #000F08;
+  background-color: #48BF84;
   color: #E0BAD7;
-  border-top: none;
-  border-bottom: none;
+  text-shadow: none;
+}
+
+#bio {
+  margin: 5rem;
+  padding: 2rem;
+  width: 90%;
+}
+
+#bio #bioFig {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+#bio #bioFig img {
+  border-radius: 5px;
+  width: 35rem;
+}
+
+#bio #bioFig figcaption {
+  width: 50%;
+}
+
+#bio #bioFig figcaption h3 {
+  font-size: 2rem;
+  padding: 2rem;
+}
+
+#bio #bioFig figcaption p {
+  font-size: 1rem;
+  padding: 2rem;
+  text-align: justify;
 }
 
 * {
   margin: 0;
   padding: 0;
   font-family: 'Baskervville', serif;
+}
+
+body {
+  overflow-x: hidden;
+  background-color: honeydew;
+}
+
+main {
+  display: flex;
+  justify-content: center;
 }

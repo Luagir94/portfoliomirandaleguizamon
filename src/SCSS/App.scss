@@ -2,15 +2,24 @@
 $color1 : #000F08;
 $color2 : #439775;
 $color3 : #48BF84;
-$color4 : #61D095;
+$color4 : #B964A6;
 $color5 : #E0BAD7;
 
 //Imports
 @import "header";
 @import "navBar";
+@import "bio";
 
 *{
     margin: 0;
     padding: 0;
     font-family: 'Baskervville', serif;
+}
+body{
+    overflow-x: hidden;
+    background-color: honeydew;
+}
+main{
+    display: flex;
+    justify-content: center;
 }
